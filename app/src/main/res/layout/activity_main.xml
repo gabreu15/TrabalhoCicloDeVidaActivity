@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/containerPrincipal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/textoinicial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left">
+
+            <TextView
+                android:id="@+id/TVtextologin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Efetue o Login:"
+                android:textAlignment="center">
+
+            </TextView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+            </Space>
+
+            <EditText
+                android:id="@+id/ETusuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Usuário">
+
+            </EditText>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+            </Space>
+
+            <EditText
+                android:id="@+id/ETsenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Senha"
+                android:inputType="textPassword">
+
+            </EditText>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+            </Space>
+
+            <Button
+                android:id="@+id/BTentrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrar">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
